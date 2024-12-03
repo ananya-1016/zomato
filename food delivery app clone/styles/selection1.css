@@ -1,0 +1,59 @@
+.main-selection{
+    background-color: rgb(248, 248, 248);
+   
+    position: absolute;
+    right: 0;
+    left:0;
+    padding:40px 0px 40px 200px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 30px;
+    
+}
+
+div{
+    display: inline-block;
+}
+.food
+{
+    width: 40px;
+    margin-right: 150px;
+}
+
+.food img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.food-type{
+    font-size: 19px;
+    margin-left: 45.9px;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.food-last{
+    width: 40px;
+    position: relative;
+    
+    
+}
+.food-last img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    
+}
+.food-last span{
+    position: absolute;
+    border-radius: 20px;
+    background-color: white ;
+    right:-125px;top:67px;
+    padding:3px 3px;
+    margin-left:3px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+}
+

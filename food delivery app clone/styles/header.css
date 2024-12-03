@@ -1,0 +1,89 @@
+.header{
+    height: 65px;
+    display:flex;
+    flex-direction: row;
+    padding-left: 200px;
+   
+    left:0;
+    align-items: center;
+    
+}
+.left-section {
+    margin-right: 22px;
+    
+}
+.logo{
+    width:130px;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 8px;
+    width: 684px;
+    height: 31px;
+    align-items: center;
+    
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin-top: 4px;
+    
+}
+.where{
+    border: none;
+    outline: none;
+    margin-top: 4px;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+.where::placeholder{
+    
+    font-size: 14px;
+    color: rgb(164, 164, 164);
+}
+.what{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    width:300px;
+    margin-left: 5px;
+}
+.search-bar::placeholder{
+    font-size: 15px;
+    color: rgb(164, 164, 164);
+}
+.right-section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    align-items: center;
+}
+.right-section span{
+    margin-top: 8px;
+}
+.user-name{
+    font-family: Roboto,Arial;
+    font-size: 17px;
+    margin-right: 3px;
+}
+.current-user-icon{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: rgb(126, 126, 136);
+}
+

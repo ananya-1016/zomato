@@ -1,0 +1,39 @@
+.footer{
+    background-color: rgb(252, 252, 252);
+    padding-left: 200px;
+    padding-right: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+    padding-bottom: 45px;
+}
+.footer-heading{
+    color: rgb(28, 28, 28);
+    font-size: 31px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight:500 ;
+}
+.types{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 6px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 9px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.fontof{
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+}
+.types .material-symbols-outlined{
+    
+    color: rgb(98, 98, 98);
+}

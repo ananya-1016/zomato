@@ -1,0 +1,67 @@
+.main-selection2{
+    position: absolute;
+    right: 0;
+    left:0;
+    padding:40px 0px 40px 200px;
+    margin-top: 350px;
+    
+    padding-right: 200px;
+}
+.heading2{
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 30px;
+    color: rgb(28, 28, 28);
+}
+.selection-restaurant{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.restaurant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.res-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    object-fit:cover;
+    box-shadow: rgba(28, 28, 28, 0.08) 5px 5px 10px;
+    
+}
+.restaurant-type{
+    font-size: 16.5px;
+    margin-top: 10px;
+    word-break: break-all;
+    font-weight: 400;
+}
+.delivery-time{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(97, 97, 97);
+}
+.restaurant-last{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.restaurant-last .res-profilr{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+.restaurant-last span{
+    position: absolute;
+    border-radius: 20px;
+    background-color: white ;
+    right:-125px;top:67px;
+    padding:3px 3px;
+    margin-left:3px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    margin-right: 110px;
+}

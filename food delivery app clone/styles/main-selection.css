@@ -1,0 +1,131 @@
+.main .heading3{
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 30px;
+}
+.delivery-container{
+    margin-top: 680px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 30px;
+    row-gap:40px;
+    padding-top: 16px;
+}
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 25px;
+    border-radius: 15px;
+    
+    
+    
+}
+.container{
+    
+    padding: 9px 9px 9px 9px;
+    width: 332px;
+    height: 405px;
+    
+}
+.container-2{
+    padding: 9px 9px 9px 9px;
+    width: 332px;
+    height: 343px;
+    
+}
+.container-2:hover{
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 10px;
+    border-radius: 15px;
+    
+}
+.food-profile{
+    width: 330px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.res-name{
+    font-weight:600;
+    font-size: 17px;
+    
+}
+.rating-food{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: rgb(38, 126, 62);
+    color: rgb(255, 255, 255);
+    width: 37px;
+    padding: 0px 0px 1px 0px;
+    font-size: 13px;
+    border-radius: 7px;
+    border: 1px solid rgb(38, 126, 62);
+    font-weight: 700;
+    
+}
+.sym-food{
+    margin-left: 2px;
+    width: 9.5px;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.res-type{
+    font-size: 14px;
+    color:rgb(123, 123, 123);
+}
+.amount{
+    font-size: 14px;
+    color:rgb(123, 123, 123);
+
+}
+
+.flex3{
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 10px;
+}
+.time{
+    font-size: 12px;
+    font-weight: 500;
+    color:rgb(50, 50, 50);
+}
+.breaker{
+    height: 0.8px;
+    width: 100%;
+    background-color: rgb(215, 215, 215);
+    border-radius: 3px;
+    
+}
+.flex4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.res-safety{
+    font-size: 12px;
+    color:rgb(123, 123, 123);
+}
+.safety{
+    width: 50px;
+    height: 19px;
+    margin-right: 9px;
+}
+.safety-who{
+    width: 40px;
+    height: 19px;
+    margin-right: 9px;
+}
